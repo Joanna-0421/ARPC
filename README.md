@@ -86,7 +86,7 @@ We use Infinity-2B as the visual autoregressive model, and finetune it for 20k i
 
 Download the [Infinity-2B pretrained model](https://huggingface.co/FoundationVision/infinity/blob/main/infinity_2b_reg.pth) and [flan-t5-xl](https://huggingface.co/google/flan-t5-xl) and save in `weights/` .
 
-```json
+```bash
 bash train.sh
 ```
 
