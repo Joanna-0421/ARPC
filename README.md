@@ -1,8 +1,8 @@
 # Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression
 
----
-
 ### ⏰Todo
+
+---
 
 - [x]  Repo release
 - [ ]  Update paper link
