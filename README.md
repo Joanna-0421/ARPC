@@ -96,8 +96,8 @@ bash train.sh
 
 Download pretrained models and save in `weights/` :
 
-1. Download the image encoder, decoder and GM-BMSRQ: checkpoint.
-2. Download the visual autoregressive model: checkpoint.
+1. Download the image encoder, decoder and GM-BMSRQ: [checkpoint](https://drive.google.com/file/d/1-uwyu_7ZeCZfaRF4rv4gBbhSZmfY0geN/view?usp=share_link).
+2. Download the visual autoregressive model: [checkpoint](https://drive.google.com/file/d/1i-cjvBlKQoHA_lkj_G-Iv7s1j4l6QHR4/view?usp=share_link).
 
 ```bash
 python demo.py
