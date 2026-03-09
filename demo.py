@@ -87,7 +87,7 @@ def cal_score(gt_leak, rec_path, device):
 
 if __name__ == "__main__":
 
-    model_path='./weights/slim-ckpt-giter023K-ep1-iter228-last.pth'
+    model_path='./weights/var_codec.pth'
     vae_path='./weights/vae_d16_reg.ckpt'
     text_encoder_ckpt = './weights/flan-t5-xl'
     args=argparse.Namespace(
