@@ -174,7 +174,7 @@ class InfinityTrainer(object):
                         vae_scale_schedule = [(pt, 2*ph, 2*pw) for pt, ph, pw in scale_schedule]
                     else:
                         vae_scale_schedule = scale_schedule
-                    raw_features, _, _ = self.vae_local.encode_for_raw_features(inp_B3HW, scale_schedule=vae_scale_schedule)
+                    raw_features, _, _ = self.vae_local.encode_for_raw_features(inp_B3HW, scale_schedule=scale_q)
             
             x_BLC_wo_prefix, gt_ms_idx_Bl = self.bitwise_self_correction.flip_requant(scale_schedule, inp_B3HW, raw_features, device)
             # x_BLC_wo_prefix: torch.Size([bs, 2*2+3*3+...+64*64, d or 4d])
