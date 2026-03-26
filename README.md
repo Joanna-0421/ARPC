@@ -6,7 +6,7 @@
 
 - [x]  Repo release
 - [ ]  Update paper link
-- [ ]  Pretrained models
+- [x]  Pretrained models
 - [x]  Inference
 - [ ]  Training
 

@@ -56,7 +56,7 @@ train.py \
 --Ct5=2048 \
 --t5_path=weights/flan-t5-xl \
 --vae_type 16 \
---vae_ckpt=weights/infinity_vae_d16.pth  \
+--vae_ckpt=weights/vae_d16_reg.ckpt  \
 --wp 0.00000001 \
 --wpe=1 \
 --dynamic_resolution_across_gpus 1 \
